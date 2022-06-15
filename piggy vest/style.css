@@ -1,0 +1,95 @@
+body{
+    background-color: #002860;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+form{
+    background-color: #fff;
+    padding-left: 35px;
+    max-width: 50%;
+    margin: 0 25%;
+    margin-top: 2em;
+    border-radius: 20px 20px 20px 0px;
+    margin-bottom: 0;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    background-color: aliceblue;
+    /* padding: 0.5em; */
+    border-radius: 7px;
+    display: flex;
+    /* width: 70%; */  
+    border-color: aliceblue;
+}
+
+.input{
+    background-color: aliceblue;
+        border-radius: 7px;
+        display: flex;
+        /* width: 70%; */
+        border-color: aliceblue;
+}
+
+.wrap-wrapper{
+    padding-top: 1em;
+}
+
+.nav-brand{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 60px;
+    color:#fff
+}
+.wrapper{
+    padding: 5px;
+    margin: 5px;
+}
+
+.button{
+    background-color: #002860;
+    color: #fff ;
+    width: 20em;
+    padding: 20px;
+    margin:15px 7.5%  ;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-left:7.5% ;
+    margin-right: 7.5%; */
+    border-radius: 8px;
+}
+
+.login{
+    color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.login:hover{
+    color: aliceblue;
+}
+
+@media (max-width: 320px) {
+    form{
+        padding-left: 10px;
+        max-width: 100%;
+        margin: 0 10%;
+        margin-top: 2em;
+        border-radius: 20px 20px 20px 0px;
+
+    }
+    
+}
+
